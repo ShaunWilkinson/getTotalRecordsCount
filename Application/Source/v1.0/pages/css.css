@@ -1,0 +1,54 @@
+* { font-family:arial; }
+.hr { width: 85%; margin: 20px auto; color: #F5F5F5;}
+.column { float:left; width:20%; min-width: 120px; max-width: 190px;}
+.column .row { border-bottom: 1px #C9C9C9 solid; margin: 0 2px; padding: 0 5px; }
+.column .row, .row span { line-height:30px; color:#000; }
+.column .row.heading, .column .row.footer { background: #0E6B80; border-right: none; }
+.column .row p { font-weight: bold; margin: 0; padding: 0px; color: #FBFBFB;}
+.column .row .percentage { float: right; width: 55px; }
+.footer { height: 10px; }
+
+.grid { margin-left: 25px; }
+
+.firstHeading { border-top-left-radius: 10px; }
+.lastHeading { border-top-right-radius: 10px; }
+.firstFooter { border-bottom-left-radius: 10px; }
+.lastFooter { border-bottom-right-radius: 10px; }
+
+.borderRight { border-right: 1px #C9C9C9 solid; }
+.inline { display:inline-block; width: 100%; }
+.right-align { text-align: right; }
+.italic { font-style: italic; }
+.ex { display: inline; margin-right: 25px; }
+#startCustomRetrieveBtn { margin: 15px 0; }
+
+.grid:after { content:""; display:table; clear:both; }
+*, *:after, *:before { -webkit-box-sizing: border-box; -mox-box-sizing: border-box; box-sizing: border-box; }
+
+/* Button Stuff */
+.btn {
+	background: #0E6B80;
+	background-image: -webkit-linear-gradient(top, #0E6B80, #267eb7);
+	background-image: -moz-linear-gradient(top, #0E6B80, #267eb7);
+	background-image: -ms-linear-gradient(top, #0E6B80, #267eb7);
+	background-image: -o-linear-gradient(top, #0E6B80, #267eb7);
+	background-image: linear-gradient(to bottom, #0E6B80, #267eb7);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background: #1f5e87;
+	background-image: -webkit-linear-gradient(top, #1f5e87, #3498db);
+	background-image: -moz-linear-gradient(top, #1f5e87, #3498db);
+	background-image: -ms-linear-gradient(top, #1f5e87, #3498db);
+	background-image: -o-linear-gradient(top, #1f5e87, #3498db);
+	background-image: linear-gradient(top, #1f5e87, #3498db);
+	text-decoration: none;
+}
