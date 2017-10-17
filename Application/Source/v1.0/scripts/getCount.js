@@ -85,6 +85,7 @@ function retrieveRecords(recordName, custom, count, activeCount, oDataNextLink) 
 				// Get current count
 				count = count + data.value.length;
 				inactiveCount = count - activeCount;
+
 				activePercentage = (activeCount / count) * 100;
 				activePercentage = activePercentage.toFixed(0);
 				inactivePercentage = 100 - activePercentage;
@@ -94,8 +95,17 @@ function retrieveRecords(recordName, custom, count, activeCount, oDataNextLink) 
 					document.getElementById(recordName + "ActiveCount").innerHTML = activeCount;
 					document.getElementById(recordName + "Count").innerHTML = count;
 					document.getElementById(recordName + "InactiveCount").innerHTML = inactiveCount;
-					document.getElementById(recordName + "ActivePercentageCount").innerHTML = activePercentage;
-					document.getElementById(recordName + "InactivePercentageCount").innerHTML = inactivePercentage;
+					if(!isNaN(activePercentage)) {
+						document.getElementById(recordName + "ActivePercentageCount").innerHTML = activePercentage;
+					} else {
+						document.getElementById(recordName + "ActivePercentageCount").innerHTML = 0;
+					}
+
+					if(!isNaN(inactivePercentage)) {
+						document.getElementById(recordName + "InactivePercentageCount").innerHTML = inactivePercentage;
+					} else {
+						document.getElementById(recordName + "InactivePercentageCount").innerHTML = 0;
+					}
 				} else {
 					document.getElementById("customActiveCount").innerHTML = activeCount;
 					document.getElementById("customCount").innerHTML = count;
