@@ -32,4 +32,4 @@ Providing you know all of these you should be able to piece together the solutio
 ## Donations
 If you've found this solution useful feel free to drop some pennies my way -
 
-PayPal - [PayPal Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BS3SEUPQDJF4Q)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](paypal.me/ShaunWilkinson95)
