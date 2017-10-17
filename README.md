@@ -6,7 +6,7 @@
 A Dynamics CRM Solutions which allows a user to get a count of all major record types or to specify which custom entities to get a count of
 
 ## Download
-A compiled version of this solution may be found in [Application/ManagedSolutions/](Application/ManagedSolutions/).
+A compiled version of this solution may be found in [Application/ManagedSolutions/](https://github.com/ShaunWilkinson/getTotalRecordsCount/tree/master/Application).
 
 v0.1 supports Dynamics CRM 2013 however may have outstanding issues.
 v1.0 supports Dynamics 2016 onwards and is the full released version with no known issues.
